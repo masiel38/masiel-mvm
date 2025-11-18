@@ -1,4 +1,67 @@
 <!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Masiel MVM - Streamer Peruano</title>
+<style>
+body {
+background-color: #0d0d0d;
+color: #f0f0f0;
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+}
+header {
+background-color: #0d0d0d;
+text-align: center;
+padding: 50px 20px;
+border: 4px solid #00eaff;
+animation: neonGlow 1.5s infinite alternate;
+box-shadow: 0 0 25px #00eaff;
+}
+header h1 {
+font-size: 3em;
+color: #bb99ff;
+}
+header p {
+font-size: 1.2em;
+max-width: 600px;
+margin: auto;
+}
+.section {
+padding: 40px 20px;
+max-width: 1000px;
+margin: auto;
+}
+.section h2 {
+font-size: 2em;
+color: #bb99ff;
+border-bottom: 2px solid #bb99ff;
+padding-bottom: 10px;
+margin-bottom: 20px;
+}
+.videos {
+display: grid;
+grid-template-columns: 1fr;
+gap: 40px;
+}
+.video-wrapper {
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+}
+.video-wrapper iframe,
+.video-wrapper blockquote {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+.social-links a {
+color: #bb99ff;
 text-decoration: none;
 display: inline-block;
 margin: 10px;
@@ -20,68 +83,3 @@ box-shadow: 0 0 35px #00eaff;
 <nav>
 <div class="logo"><img src="logo.png" alt="Logo de Masiel MVM"></div>
 <div class="social-links">
-<a href="#twitch">Twitch</a>
-<a href="#youtube">YouTube</a>
-<a href="#tiktok">TikTok</a>
-</div>
-</nav>
-</header>
-
-
-<section class="section" id="sobre">
-<h2>Sobre mí</h2>
-<p>Hola, soy Masiel MVM, creador de contenido y streamer. Me encanta compartir mis juegos favoritos y construir una comunidad respetuosa y divertida. Transmito principalmente en Twitch y subo contenido a YouTube y TikTok.</p>
-</section>
-
-
-<section class="section" id="juegos">
-<h2>Juegos principales</h2>
-<ul>
-<li>Rust</li>
-<li>Valorant</li>
-<li>Fortnite</li>
-<li>Dota 2 (variedad)</li>
-</ul>
-</section>
-
-
-<section class="section" id="videos">
-<h2>Últimos Videos</h2>
-<div class="videos">
-<!-- YouTube: muestra los últimos videos automáticamente -->
-<div class="video-wrapper">
-<iframe src="https://www.youtube.com/embed?listType=user_uploads&list=Masiel_mvm" title="Últimos videos de YouTube" frameborder="0" allowfullscreen></iframe>
-</div>
-
-
-<!-- TikTok: feed de los últimos videos del perfil -->
-<div class="video-wrapper">
-<iframe src="https://www.tiktok.com/@masielmvm/embed" title="Últimos videos de TikTok" frameborder="0"></iframe>
-</div>
-</div>
-</section>
-</blockquote>
-<script async src="https://www.tiktok.com/embed.js"></script>
-</div>
-</div>
-</section>
-
-
-<section class="section" id="contacto">
-<h2>Redes y Comunidad</h2>
-<div class="social-links">
-<a href="https://www.twitch.tv/masiel_mvm" target="_blank">Twitch</a>
-<a href="https://www.youtube.com/@Masiel_mvm" target="_blank">YouTube</a>
-<a href="https://www.tiktok.com/@masielmvm" target="_blank">TikTok</a>
-</div>
-<p>¿Quieres colaborar o unirte a la comunidad? ¡Únete en Twitch o sígueme en redes!</p>
-</section>
-
-
-<footer style="text-align:center; padding: 20px; background-color:#111;">
-<p>&copy; 2025 Masiel MVM</p>
-</footer>
-</body>
-</html>
-
-
